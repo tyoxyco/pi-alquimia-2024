@@ -12,3 +12,38 @@ h1{
 h2{
     text-align: center;
 }
+
+/*Estilo para o popup validador de idade*/
+
+.dialog-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Estilos para o botão*/
+
+.dialog-box button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*Estilo para o input*/
+
+.dialog-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
