@@ -7,9 +7,10 @@ function verificarIdade() {
         var dialogBox = document.querySelector('.dialog-box');
             dialogBox.computedStyleMap.display = "none";
         
+        alert("Seja Bem Vindo");
+        
         window.location.href = "https://alquimiacervejaria.com.br/index.html";   
 
-        alert("Seja Bem Vindo");
     }   
         else {
         window.location.href = "https://google.com";
